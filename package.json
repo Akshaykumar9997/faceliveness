@@ -2,6 +2,25 @@
   "name": "liveness-web",
   "version": "0.1.0",
   "private": true,
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "homepage": "https://github.com/Akshaykumar9997/liveness-blindly#readme",
+  "bugs": {
+    "url": "https://github.com/Akshaykumar9997/liveness-blindly/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akshaykumar9997/liveness-blindly.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@aws-amplify/ui-react": "^6.13.2",
     "@aws-amplify/ui-react-liveness": "^3.5.0",
@@ -14,12 +33,6 @@
     "react-dom": "^19.2.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

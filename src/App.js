@@ -1,7 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import { FaceLivenessDetector } from '@aws-amplify/ui-react-liveness';
 import { Loader, ThemeProvider } from '@aws-amplify/ui-react';
+import { Amplify } from 'aws-amplify'; // Import Amplify core
 import '@aws-amplify/ui-react/styles.css';
+
+// --- CONFIGURATION: CONNECT TO YOUR GUEST BADGE ---
+Amplify.configure({
+  Auth: {
+    Cognito: {
+      // 1. PASTE YOUR IDENTITY POOL ID HERE
+      identityPoolId: 'ap-south-1:53cec3f2-3bb1-4342-b50f-fb745be571d4', 
+      
+      // 2. This allows unauthenticated users (Guests) to use the camera
+      allowGuestAccess: true 
+    }
+  }
+});
+// -------------------------------------------------
 
 function App() {
   const [sessionId, setSessionId] = useState(null);
