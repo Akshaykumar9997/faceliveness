@@ -2,19 +2,9 @@
   "name": "liveness-web",
   "version": "0.1.0",
   "private": true,
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "homepage": "https://github.com/Akshaykumar9997/liveness-blindly#readme",
-  "bugs": {
-    "url": "https://github.com/Akshaykumar9997/liveness-blindly/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Akshaykumar9997/liveness-blindly.git"
-  },
+  "description": "AWS Face Liveness Detection Web App",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
-  "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
